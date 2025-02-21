@@ -1,0 +1,18 @@
+{
+  "name": "employee-card-generator",
+  "version": "1.0.0",
+  "description": "Çalışan yıldönümü kartı oluşturucu",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js"
+  },
+  "dependencies": {
+    "canvas": "^3.1.0",
+    "express": "^4.18.2",
+    "jimp": "^0.22.10"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  }
+}
